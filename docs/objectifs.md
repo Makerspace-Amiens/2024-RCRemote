@@ -22,8 +22,14 @@ Ce projet, basé sur l'apprentissage par la pratique, nous prépare aux défis r
 
 ## Objectifs du Projet
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
+L'objectif principal de notre projet est de concevoir, fabriquer et programmer une manette multi-usage capable de contrôler divers appareils électroniques via une connexion Bluetooth, en utilisant un microcontrôleur ESP32. Ce projet vise à :
 
+- Développer des compétences pratiques : Appliquer nos connaissances théoriques en électronique, modélisation 3D et programmation pour créer un dispositif fonctionnel.
+- Maîtriser des outils technologiques : Utiliser des logiciels spécialisés tels que KICAD pour la conception de circuits imprimés et Onshape pour la modélisation 3D.
+- Résoudre des problèmes techniques : Surmonter les défis rencontrés lors de l'assemblage physique des composants et de l'impression 3D.
+- Intégrer différentes disciplines de l'ingénierie : Combiner des compétences en électronique, en mécanique et en programmation pour réaliser un projet complet et fonctionnel.
+- Préparer à la vie professionnelle : Acquérir une expérience pratique et développer des compétences transférables nécessaires à notre future carrière d'ingénieur.
+  
 # Existant
 
 Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
