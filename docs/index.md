@@ -22,7 +22,7 @@ Ingénierie ; UniLaSalle Amiens ; Projet étudiant ; Manette multi-usage ; Bluet
 
 ## Remerciements
 
-Nous tenons à exprimer notre profonde gratitude à toutes les personnes et institutions qui ont contribué à la réalisation de ce projet.Sans leur soutien et leurs conseils, nous n'aurions pas pu mener à bien ce projet.
+Nous tenons à exprimer notre profonde gratitude à toutes les personnes et institutions qui ont contribué à la réalisation de ce projet. Sans leur soutien et leurs conseils, nous n'aurions pas pu mener à bien ce projet.
 
 Tout d'abord, nous remercions chaleureusement nos professeurs et encadrants de UniLaSalle Amiens. Leur soutien constant, leurs conseils avisés et leur encadrement tout au long de ce projet ont été essentiels à notre réussite. En particulier, nous remercions Mr Bracq Adrien pour son expertise en électronique et ses conseils techniques précieux, ainsi que pour son aide en modélisation 3D et en programmation.
 
