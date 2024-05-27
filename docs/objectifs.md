@@ -20,7 +20,8 @@ L'ingénierie étant vaste et multidisciplinaire, nous avons choisi de concevoir
 
 Ce projet, basé sur l'apprentissage par la pratique, nous prépare aux défis réels de notre future carrière d'ingénieur. Nous avons dû maîtriser des logiciels de conception de circuits imprimés (KICAD) et de modélisation 3D (Onshape), assembler les composants électroniques, résoudre des problèmes d'impression 3D, et programmer l'ESP32 en langage C. Ce projet synthétise les compétences acquises au cours de notre formation et nous prépare aux exigences du monde professionnel.
 
-(images/image1.jpg)
+![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/image1.jpg)
+
 
 ## Objectifs du Projet
 
