@@ -22,12 +22,17 @@ Ingénierie ; UniLaSalle Amiens ; Projet étudiant ; Manette multi-usage ; Bluet
 
 ## Remerciements
 
-Nous tenons à exprimer notre profonde gratitude à toutes les personnes et institutions qui ont contribué à la réalisation de ce projet. Sans leur soutien et leurs conseils, nous n'aurions pas pu mener à bien ce projet.
+Nous tenons à exprimer notre profonde gratitude à toutes les personnes et institutions qui ont contribué à la réalisation de ce projet.Sans leur soutien et leurs conseils, nous n'aurions pas pu mener à bien ce projet.
+
 Tout d'abord, nous remercions chaleureusement nos professeurs et encadrants de UniLaSalle Amiens. Leur soutien constant, leurs conseils avisés et leur encadrement tout au long de ce projet ont été essentiels à notre réussite. En particulier, nous remercions Mr Bracq Adrien pour son expertise en électronique et ses conseils techniques précieux, ainsi que pour son aide en modélisation 3D et en programmation.
+
 Nous souhaitons également exprimer notre reconnaissance au laboratoire d'électronique de UniLaSalle Amiens pour nous avoir fourni les ressources matérielles nécessaires. Les composants électroniques, les outils de soudure et les imprimantes 3D mis à notre disposition ont été indispensables pour la conception et la réalisation de notre manette multi-usage. Nous remercions en particulier Mr Chaumier Guy pour son assistance technique et ses conseils pratiques qui nous ont permis de surmonter de nombreux défis.
+
 Un grand merci à nos camarades de classe pour leurs encouragements, leurs retours constructifs et leur soutien moral tout au long du projet. Leurs idées et suggestions ont enrichi notre réflexion et ont contribué à l'amélioration continue de notre travail. En particulier, nous remercions Mr Looij Dylan , Mr Bianchi Pierre-Alex pour leur aide dans la résolution des problèmes techniques rencontrés lors de l'impression 3D.
+
 Nous tenons également à exprimer notre reconnaissance envers l'équipe administrative de UniLaSalle Amiens. Leur gestion logistique efficace, la mise à disposition des salles de travail et des équipements informatiques ont grandement facilité notre progression. 
 Enfin, nous adressons nos plus sincères remerciements à nos familles et amis pour leur soutien inconditionnel, leur patience et leur compréhension tout au long de ce projet. Leur confiance en nous a été une source constante de motivation et d'inspiration. 
+
 Grâce à l'aide et au soutien de chacun, nous avons pu mener à bien ce projet et en tirer de précieuses leçons pour notre future carrière d'ingénieur. Ce projet n'a pas seulement été une réussite académique, mais aussi une aventure humaine enrichissante qui nous a permis de développer des compétences techniques et interpersonnelles essentielles.
 
 ## Poster
