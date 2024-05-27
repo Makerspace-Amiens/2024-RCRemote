@@ -40,7 +40,7 @@ Voici notre affiche qui présente une vue d'ensemble de notre projet.
 
 Voici notre vidéo qui offre une présentation globale de notre projet.
 
-<video src="images/videoprojet.mp4" controls title="Title"  style="width: 100%;"></video>
+<video src="images/video.mp4" controls title="Title"  style="width: 100%;"></video>
 
 
 ---
