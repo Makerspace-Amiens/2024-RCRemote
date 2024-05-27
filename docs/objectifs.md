@@ -32,7 +32,9 @@ L'objectif principal de notre projet est de concevoir, fabriquer et programmer u
 - Résoudre des problèmes techniques : Surmonter les défis rencontrés lors de l'assemblage physique des composants et de l'impression 3D.
 - Intégrer différentes disciplines de l'ingénierie : Combiner des compétences en électronique, en mécanique et en programmation pour réaliser un projet complet et fonctionnel.
 - Préparer à la vie professionnelle : Acquérir une expérience pratique et développer des compétences transférables nécessaires à notre future carrière d'ingénieur.
-  
+
+![Illustration contexte](images/image2.jpeg)
+
 # Existant
 
 Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
