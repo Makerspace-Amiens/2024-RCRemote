@@ -20,6 +20,8 @@ L'ingénierie étant vaste et multidisciplinaire, nous avons choisi de concevoir
 
 Ce projet, basé sur l'apprentissage par la pratique, nous prépare aux défis réels de notre future carrière d'ingénieur. Nous avons dû maîtriser des logiciels de conception de circuits imprimés (KICAD) et de modélisation 3D (Onshape), assembler les composants électroniques, résoudre des problèmes d'impression 3D, et programmer l'ESP32 en langage C. Ce projet synthétise les compétences acquises au cours de notre formation et nous prépare aux exigences du monde professionnel.
 
+(images/image1.png)
+
 ## Objectifs du Projet
 
 L'objectif principal de notre projet est de concevoir, fabriquer et programmer une manette multi-usage capable de contrôler divers appareils électroniques via une connexion Bluetooth, en utilisant un microcontrôleur ESP32. Ce projet vise à :
