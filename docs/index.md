@@ -9,6 +9,10 @@ title: Accueil
 
 ![Illustration presentation](images/image4.png)
 
+## Illustration du prototype
+
+Voici une illustration de notre manette multi-usage, développée dans le cadre de notre projet de troisième année.
+![Illustration du prototype](images/image4.png)
 
 ## Résumé du projet
 
