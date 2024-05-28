@@ -20,6 +20,18 @@ Ce projet nous a permis de renforcer nos compétences en électronique, modélis
 
 Ingénierie ; UniLaSalle Amiens ; Projet étudiant ; Manette multi-usage ; Bluetooth ; ESP32 ; Microcontrôleur ; KICAD ; Carte électronique ; Impression 3D ; Onshape ; Modélisation 3D ; Soudure de composants ; Conception électronique ; Programmation ; Communication sans fil ; Défis techniques ; Prototypage ; Collaboration ; Évaluation académique
 
+## Poster
+
+Voici notre affiche qui présente une vue d'ensemble de notre projet.
+
+![Poster projet](images/poster.png)
+
+## Vidéo
+
+Voici notre vidéo qui offre une présentation globale de notre projet.
+
+<video src="images/video.mp4" controls title="Title"  style="width: 100%;"></video>
+
 ## Remerciements
 
 Nous tenons à exprimer notre profonde gratitude à toutes les personnes et institutions qui ont contribué à la réalisation de ce projet. Sans leur soutien et leurs conseils, nous n'aurions pas pu mener à bien ce projet.
@@ -34,18 +46,5 @@ Nous tenons également à exprimer notre reconnaissance envers l'équipe adminis
 Enfin, nous adressons nos plus sincères remerciements à nos familles et amis pour leur soutien inconditionnel, leur patience et leur compréhension tout au long de ce projet. Leur confiance en nous a été une source constante de motivation et d'inspiration. 
 
 Grâce à l'aide et au soutien de chacun, nous avons pu mener à bien ce projet et en tirer de précieuses leçons pour notre future carrière d'ingénieur. Ce projet n'a pas seulement été une réussite académique, mais aussi une aventure humaine enrichissante qui nous a permis de développer des compétences techniques et interpersonnelles essentielles.
-
-## Poster
-
-Voici notre affiche qui présente une vue d'ensemble de notre projet.
-
-![Poster projet](images/poster.png)
-
-## Vidéo
-
-Voici notre vidéo qui offre une présentation globale de notre projet.
-
-<video src="images/video.mp4" controls title="Title"  style="width: 100%;"></video>
-
 
 ---
