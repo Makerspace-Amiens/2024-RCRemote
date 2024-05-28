@@ -18,7 +18,7 @@ Ce projet nous a permis de renforcer nos compétences en électronique, modélis
 
 Ingénierie ; UniLaSalle Amiens ; Projet étudiant ; Manette multi-usage ; Bluetooth ; ESP32 ; Microcontrôleur ; KICAD ; Carte électronique ; Impression 3D ; Onshape ; Modélisation 3D ; Soudure de composants ; Conception électronique ; Programmation ; Communication sans fil ; Défis techniques ; Prototypage ; Collaboration ; Évaluation académique
 
-## _Illustration du prototype</u>
+## _Illustration du prototype_
 
 Voici une illustration de notre manette multi-usage, développée dans le cadre de notre projet de troisième année.
 ![Illustration du prototype](images/image5.png)
