@@ -10,7 +10,7 @@ title: Accueil
 
 **Illustration du prototype :** <span style="color:blue">Voici une illustration de notre manette multi-usage, développée dans le cadre de notre projet de troisième année.</span>
 
-## _Résumé du projet_
+## <span style="color:blue">_Résumé du projet_</span>
 
 Nous sommes deux étudiants en troisième année d'ingénierie à UniLaSalle Amiens. Dans le cadre de notre formation, nous avons conçu une manette multi-usage capable de contrôler différents appareils via Bluetooth avec un microcontrôleur ESP32.
 Nous avons d'abord créé la carte électronique avec KICAD, puis soudé les composants et conçu la coque avec Onshape. Après avoir surmonté des difficultés d'impression 3D, nous avons assemblé la manette et entamé la programmation de l'ESP32 pour assurer une communication stable.
