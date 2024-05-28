@@ -8,13 +8,13 @@ title: Accueil
 
 ![Illustration presentation](images/image4.png)
 
-## <u>Résumé du projet</u>
+## _Résumé du projet_
 
 Nous sommes deux étudiants en troisième année d'ingénierie à UniLaSalle Amiens. Dans le cadre de notre formation, nous avons conçu une manette multi-usage capable de contrôler différents appareils via Bluetooth avec un microcontrôleur ESP32.
 Nous avons d'abord créé la carte électronique avec KICAD, puis soudé les composants et conçu la coque avec Onshape. Après avoir surmonté des difficultés d'impression 3D, nous avons assemblé la manette et entamé la programmation de l'ESP32 pour assurer une communication stable.
 Ce projet nous a permis de renforcer nos compétences en électronique, modélisation 3D et programmation, tout en nous préparant aux défis techniques de l'ingénierie.
 
-## <u>Mots clefs</u>
+## _Mots clefs_
 
 Ingénierie ; UniLaSalle Amiens ; Projet étudiant ; Manette multi-usage ; Bluetooth ; ESP32 ; Microcontrôleur ; KICAD ; Carte électronique ; Impression 3D ; Onshape ; Modélisation 3D ; Soudure de composants ; Conception électronique ; Programmation ; Communication sans fil ; Défis techniques ; Prototypage ; Collaboration ; Évaluation académique
 
