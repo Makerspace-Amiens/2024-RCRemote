@@ -6,13 +6,7 @@ title: Accueil
 
 # Bienvenue dans la documentation de notre projet RC Remote
 
-
 ![Illustration presentation](images/image4.png)
-
-## Illustration du prototype
-
-Voici une illustration de notre manette multi-usage, développée dans le cadre de notre projet de troisième année.
-![Illustration du prototype](images/image5.png)
 
 ## Résumé du projet
 
@@ -23,6 +17,11 @@ Ce projet nous a permis de renforcer nos compétences en électronique, modélis
 ## Mots clefs
 
 Ingénierie ; UniLaSalle Amiens ; Projet étudiant ; Manette multi-usage ; Bluetooth ; ESP32 ; Microcontrôleur ; KICAD ; Carte électronique ; Impression 3D ; Onshape ; Modélisation 3D ; Soudure de composants ; Conception électronique ; Programmation ; Communication sans fil ; Défis techniques ; Prototypage ; Collaboration ; Évaluation académique
+
+## Illustration du prototype
+
+Voici une illustration de notre manette multi-usage, développée dans le cadre de notre projet de troisième année.
+![Illustration du prototype](images/image5.png)
 
 ## Poster
 
