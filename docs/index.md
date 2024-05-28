@@ -8,6 +8,8 @@ title: Accueil
 
 ![Illustration presentation](images/image4.png)
 
+**Illustration du prototype :** <u>Voici une illustration de notre manette multi-usage, développée dans le cadre de notre projet de troisième année.</u>
+
 ## Résumé du projet
 
 Nous sommes deux étudiants en troisième année d'ingénierie à UniLaSalle Amiens. Dans le cadre de notre formation, nous avons conçu une manette multi-usage capable de contrôler différents appareils via Bluetooth avec un microcontrôleur ESP32.
