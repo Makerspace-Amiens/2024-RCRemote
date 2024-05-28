@@ -64,6 +64,8 @@ Avant de débuter ce projet, nous avions acquis une base solide de connaissances
 - Planification et Organisation : Compétences en gestion de projet, incluant la planification des étapes de développement, la répartition des tâches et le suivi de l'avancement du projet.
 - Travail en Équipe : Expérience de travail collaboratif sur des projets académiques, incluant la communication, la coordination et la résolution de conflits.
 
+![Illustration etat de l'art](images/image3.png)
+
 # Cahier des Charges
 
 Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
