@@ -7,7 +7,7 @@ title: Accueil
 # Bienvenue dans la documentation de notre projet RC Remote
 
 
-![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/illustration.png)
+![Illustration presentation](images/image4.png)
 
 
 ## Résumé du projet
