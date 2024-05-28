@@ -37,7 +37,32 @@ L'objectif principal de notre projet est de concevoir, fabriquer et programmer u
 
 # Existant
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
+Avant de débuter ce projet, nous avions acquis une base solide de connaissances théoriques et pratiques dans plusieurs domaines de l'ingénierie grâce à notre cursus à UniLaSalle Amiens. Voici un résumé de ce que nous savions avant de commencer le projet :
+
+## Électronique :
+
+- Conception de Circuits : Connaissances fondamentales sur la conception de circuits électroniques, la lecture de schémas et l'utilisation de logiciels de conception de circuits imprimés (KICAD).
+- Composants Électroniques : Compréhension des différents types de composants électroniques (résistances, condensateurs, microcontrôleurs, etc.) et de leurs fonctions.
+
+## Programmation :
+
+- Langages de Programmation : Maîtrise des langages de programmation tels que le C et le C++, particulièrement dans le contexte de la programmation de microcontrôleurs.
+- Développement avec Arduino : Expérience de programmation sur des plateformes comme Arduino, avec des projets précédents utilisant l'IDE Arduino pour développer des applications simples.
+
+## Modélisation 3D :
+
+- Logiciels de CAO : Utilisation de logiciels de conception assistée par ordinateur (CAO) tels que Onshape pour créer et modifier des modèles 3D.
+- Techniques de Modélisation : Compétences de base en modélisation 3D, y compris la création de formes géométriques, l'assemblage de composants et la préparation de modèles pour l'impression 3D.
+
+## Impression 3D :
+
+- Préparation des Modèles : Connaissance des processus de tranchage et de préparation des fichiers pour l'impression 3D, notamment l'utilisation de logiciels comme Cura.
+- Matériaux et Techniques d'Impression : Familiarité avec les types de matériaux d'impression 3D et les techniques de base pour réaliser des impressions de qualité.
+
+## Gestion de Projet :
+
+- Planification et Organisation : Compétences en gestion de projet, incluant la planification des étapes de développement, la répartition des tâches et le suivi de l'avancement du projet.
+- Travail en Équipe : Expérience de travail collaboratif sur des projets académiques, incluant la communication, la coordination et la résolution de conflits.
 
 # Cahier des Charges
 
