@@ -69,8 +69,6 @@ Avant de débuter ce projet, nous avions acquis une base solide de connaissances
 
 # <span style="color:#003366">_Cahier des Charges_</span>
 
-![Illustration cahier des charges](images/image6.jpeg)
-
 ## 1. Introduction
 
 ### 1.1 Contexte
@@ -172,3 +170,4 @@ L'objectif est de concevoir, réaliser et programmer une télécommande fonction
 
 Ce projet vise à développer une télécommande basée sur l'ESP32, intégrant plusieurs composants matériels pour offrir un contrôle sans fil efficace et intuitif. La réussite de ce projet dépendra de la bonne intégration des composants, de la programmation efficace du microcontrôleur, et de la validation rigoureuse des fonctionnalités.
 
+![Illustration cahier des charges](images/image6.jpeg)
