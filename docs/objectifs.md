@@ -69,6 +69,8 @@ Avant de débuter ce projet, nous avions acquis une base solide de connaissances
 
 # <span style="color:#003366">_Cahier des Charges_</span>
 
+![Illustration cahier des charges](images/image6.jpeg)
+
 ## 1. Introduction
 
 ### 1.1 Contexte
