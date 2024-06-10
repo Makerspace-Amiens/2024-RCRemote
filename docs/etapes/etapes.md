@@ -21,4 +21,4 @@ Notre projet se compose de cinq grandes étapes, que nous allons détailler dans
 
 Chacune de ces étapes sera expliquée en détail dans les sections suivantes, couvrant la modélisation 3D, la programmation, et les aspects électroniques. Nous vous guiderons à travers chaque phase, en expliquant les défis rencontrés et les solutions apportées pour mener à bien notre projet.
 
-![Illustration Etapes](images/image9.png)
+![Illustration Etapes](images/image10.png)
