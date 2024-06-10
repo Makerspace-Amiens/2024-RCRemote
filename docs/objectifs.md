@@ -12,6 +12,8 @@ Ce projet nous a permis d’explorer différentes facettes de l'ingénierie, not
 
 En surmontant les divers défis techniques, nous avons non seulement acquis des compétences techniques précieuses mais également développé notre capacité à résoudre des problèmes complexes et à travailler efficacement en équipe. Ce projet représente une étape importante dans notre formation, nous préparant à affronter les défis réels du métier d'ingénieur.
 
+![Illustration introduction](images/image7.png)
+
 # <span style="color:#DB1702">_Contexte du Projet_</span>
 
 Dans le cadre de notre troisième année à UniLaSalle Amiens, nous avons entrepris un projet visant à nous immerger dans différents domaines de l'ingénierie. L'objectif principal est de développer une compréhension pratique des compétences nécessaires pour concevoir, fabriquer et programmer des dispositifs technologiques.
