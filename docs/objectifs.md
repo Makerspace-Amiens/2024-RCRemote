@@ -4,7 +4,7 @@ nav_order: 3
 title: Objectifs du projet
 ---
 
-# Introduction
+# <span style="color:#003366">_Introduction_</span>
 
 Nous sommes deux étudiants en troisième année à UniLaSalle Amiens. Dans le cadre de notre formation en ingénierie, il nous a été demandé de réaliser un projet ayant pour objectif de nous faire découvrir les divers domaines qu’un ingénieur peut être amené à gérer. Pour répondre à cet objectif, nous avons choisi de concevoir et de réaliser une manette multi-usage capable de contrôler divers objets via une connexion Bluetooth.
 
@@ -12,7 +12,7 @@ Ce projet nous a permis d’explorer différentes facettes de l'ingénierie, not
 
 En surmontant les divers défis techniques, nous avons non seulement acquis des compétences techniques précieuses mais également développé notre capacité à résoudre des problèmes complexes et à travailler efficacement en équipe. Ce projet représente une étape importante dans notre formation, nous préparant à affronter les défis réels du métier d'ingénieur.
 
-## Contexte du Projet
+# Contexte du Projet
 
 Dans le cadre de notre troisième année à UniLaSalle Amiens, nous avons entrepris un projet visant à nous immerger dans différents domaines de l'ingénierie. L'objectif principal est de développer une compréhension pratique des compétences nécessaires pour concevoir, fabriquer et programmer des dispositifs technologiques.
 
@@ -23,7 +23,8 @@ Ce projet, basé sur l'apprentissage par la pratique, nous prépare aux défis r
 ![Illustration contexte](images/image1.jpg)
 
 
-## Objectifs du Projet
+# <span style="color:#003366">_Objectifs du Projet_</span>
+
 
 L'objectif principal de notre projet est de concevoir, fabriquer et programmer une manette multi-usage capable de contrôler divers appareils électroniques via une connexion Bluetooth, en utilisant un microcontrôleur ESP32. Ce projet vise à :
 
@@ -66,19 +67,19 @@ Avant de débuter ce projet, nous avions acquis une base solide de connaissances
 
 ![Illustration etat de l'art](images/image3.png)
 
-# Cahier des Charges
+# <span style="color:#003366">_Cahier des Charges_</span>
 
-### 1. Introduction
+## 1. Introduction
 
-#### 1.1 Contexte
+### 1.1 Contexte
 Le projet consiste à développer une télécommande basée sur le microcontrôleur ESP32, capable de contrôler divers périphériques via WiFi ou Bluetooth. La télécommande inclut des composants tels que des joysticks, des boutons poussoirs, des boutons ON/OFF et un écran LCD pour afficher les informations.
 
-#### 1.2 Objectifs
+### 1.2 Objectifs
 L'objectif est de concevoir, réaliser et programmer une télécommande fonctionnelle, en utilisant l'ESP32 pour gérer les entrées des joysticks et des boutons, traiter les données et commander un écran LCD, ainsi que communiquer avec les périphériques cibles.
 
-### 2. Spécifications Fonctionnelles
+## 2. Spécifications Fonctionnelles
 
-#### 2.1 Composants Matériels
+### 2.1 Composants Matériels
 - **Microcontrôleur** : ESP32
 - **Entrées** :
   - 2 Joysticks
@@ -88,7 +89,7 @@ L'objectif est de concevoir, réaliser et programmer une télécommande fonction
   - Écran LCD
 - **Alimentation** : Source d'alimentation adaptée (batterie ou alimentation externe)
 
-#### 2.2 Fonctionnalités
+### 2.2 Fonctionnalités
 - **Lecture des Entrées** :
   - Capture de la position des joysticks (x, y).
   - Capture de l'état des boutons poussoirs (pressé/non pressé).
@@ -100,72 +101,72 @@ L'objectif est de concevoir, réaliser et programmer une télécommande fonction
   - Affichage des informations pertinentes sur l'écran LCD.
   - Transmission des commandes via WiFi/Bluetooth pour contrôler les périphériques.
 
-### 3. Spécifications Techniques
+## 3. Spécifications Techniques
 
-#### 3.1 Microcontrôleur ESP32
+### 3.1 Microcontrôleur ESP32
 - Double cœur Tensilica LX6
 - Connectivité WiFi et Bluetooth intégrée
 - Interfaces GPIO pour connecter les joysticks, boutons et écran LCD
 
-#### 3.2 Joysticks
+### 3.2 Joysticks
 - Module analogique avec deux axes (x, y)
 - Connexion via entrées analogiques de l'ESP32
 
-#### 3.3 Boutons Poussoirs et ON/OFF
+### 3.3 Boutons Poussoirs et ON/OFF
 - Boutons numériques pour entrées binaires (haut/bas)
 - Connexion via entrées GPIO de l'ESP32
 
-#### 3.4 Écran LCD
+### 3.4 Écran LCD
 - Affichage des informations et retour visuel à l'utilisateur
 - Connexion via SPI ou I2C à l'ESP32
 
-#### 3.5 Alimentation
+### 3.5 Alimentation
 - Source d'alimentation adaptée pour ESP32 et composants connectés
 - Possibilité d'utiliser une batterie rechargeable
 
 ### 4. Architecture du Système
 
-#### 4.1 Diagramme Bloc
+### 4.1 Diagramme Bloc
 - Entrées : Joysticks, Boutons poussoirs, Boutons ON/OFF
 - Microcontrôleur ESP32 : Lecture des entrées, Traitement des données, Génération des commandes
 - Sorties : Écran LCD, Communication WiFi/Bluetooth
 - Alimentation : Source d'alimentation
 
-### 5. Contraintes
+## 5. Contraintes
 
-#### 5.1 Contraintes Techniques
+### 5.1 Contraintes Techniques
 - Intégration et compatibilité des composants matériels avec l'ESP32
 - Gestion de l'alimentation pour une utilisation optimale et durable
 - Programmation en langage C/C++ avec l'IDE Arduino ou PlatformIO
 
-#### 5.2 Contraintes Fonctionnelles
+### 5.2 Contraintes Fonctionnelles
 - Réactivité des commandes et fluidité d'affichage sur l'écran LCD
 - Fiabilité de la communication sans fil (WiFi/Bluetooth)
 - Facilité d'utilisation et ergonomie de la télécommande
 
-### 6. Étapes de Réalisation
+## 6. Étapes de Réalisation
 
-#### 6.1 Conception
+### 6.1 Conception
 - Sélection et acquisition des composants matériels
 - Conception du schéma électronique
 
-#### 6.2 Développement
+### 6.2 Développement
 - Programmation du microcontrôleur ESP32
   - Lecture des entrées
   - Traitement des données
   - Gestion de l'affichage sur l'écran LCD
   - Communication sans fil (WiFi/Bluetooth)
 
-#### 6.3 Tests et Validation
+### 6.3 Tests et Validation
 - Test des fonctionnalités de chaque composant (joysticks, boutons, écran LCD)
 - Validation des commandes envoyées et de la communication sans fil
 - Optimisation de l'ergonomie et de la réactivité
 
-#### 6.4 Documentation
+### 6.4 Documentation
 - Rédaction du manuel utilisateur
 - Documentation technique détaillée
 
-### 7. Conclusion
+## 7. Conclusion
 
 Ce projet vise à développer une télécommande basée sur l'ESP32, intégrant plusieurs composants matériels pour offrir un contrôle sans fil efficace et intuitif. La réussite de ce projet dépendra de la bonne intégration des composants, de la programmation efficace du microcontrôleur, et de la validation rigoureuse des fonctionnalités.
 
