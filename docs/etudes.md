@@ -4,7 +4,7 @@ nav_order: 4
 title: Études et choix techniques
 ---
 
-# Études et choix techniques
+# <span style="color:#DB1702">_Études et choix techniques_</span>
 
 Pour la partie études et choix techniques, nous nous sommes documentés sur internet afin de déterminer les techniques à utiliser. Nous avons également pris en exemple un ancien projet similaire, avec pour objectif de le surpasser en utilisant des techniques de réalisation plus modernes et précises. Pour cela, nous avons tout mis à plat sur une feuille et commencé à rédiger les étapes de réalisation.
 
