@@ -5,23 +5,18 @@ nav_order: 6
 has_children: true
 ---
 
-# Étapes de Fabrication
+# Etapes de fabrication
 
-Bienvenue dans la section dédiée aux étapes de fabrication du projet XYZ. Ici, vous trouverez des guides détaillés pour chaque étape du processus de fabrication.
+Notre projet se compose de cinq grandes étapes, que nous allons détailler dans les sous-parties ci-jointes. Chacune de ces étapes est essentielle à la réalisation de notre manette, et nous vous expliquerons en détail le processus complet, depuis la conception jusqu'à l'assemblage final. Voici un aperçu de ces étapes :
 
-## Aperçu des Étapes
+1. **Création du "Wokwi"** : Cette étape a consisté à créer un prototype simplifié, appelé "Wokwi", pour identifier les composants nécessaires. Cela nous a permis de faire un inventaire précis des éléments à commander et à utiliser pour notre manette.
 
-Le processus de fabrication est divisé en plusieurs étapes clés :
+2. **Conception électronique avec KICAD** : Nous avons utilisé le logiciel de conception KICAD pour créer le schéma et la carte électronique de notre manette. Après avoir finalisé la conception, nous avons imprimé la carte et soudé les composants commandés.
 
-1. [Préparation des Matériaux](etape_1)
-2. [Assemblage](etape_2)
-3. [Finition]()
-4. [Contrôle Qualité]()
+3. **Modélisation 3D** : Nous avons modélisé notre manette en 3D à l'aide du logiciel Onshape. Cette étape nous a permis de visualiser et de perfectionner le design de la manette avant de passer à la fabrication.
 
-## Commencer
+4. **Programmation** : Nous avons programmé le microcontrôleur ESP32 en utilisant l'IDE Arduino. Cette phase a été essentielle pour intégrer les fonctionnalités souhaitées dans notre manette et assurer son bon fonctionnement.
 
-Pour commencer, assurez-vous de bien comprendre chaque étape et de disposer de tous les outils et matériaux nécessaires. Suivez les étapes dans l'ordre pour garantir la qualité et l'efficacité du processus de fabrication.
+5. **Assemblage final** : Toutes les pièces, y compris la carte électronique et les composants 3D, ont été assemblées pour former le prototype final de notre manette. Cette étape a consisté à vérifier le bon fonctionnement de chaque partie et à effectuer les ajustements nécessaires.
 
----
-
-Pour toute question ou aide supplémentaire, n'hésitez pas à contacter notre équipe.
+Chacune de ces étapes sera expliquée en détail dans les sections suivantes, couvrant la modélisation 3D, la programmation, et les aspects électroniques. Nous vous guiderons à travers chaque phase, en expliquant les défis rencontrés et les solutions apportées pour mener à bien notre projet.
