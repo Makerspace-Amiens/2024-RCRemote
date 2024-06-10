@@ -124,7 +124,7 @@ L'objectif est de concevoir, réaliser et programmer une télécommande fonction
 - Source d'alimentation adaptée pour ESP32 et composants connectés
 - Possibilité d'utiliser une batterie rechargeable
 
-### 4. Architecture du Système
+## 4. Architecture du Système
 
 ### 4.1 Diagramme Bloc
 - Entrées : Joysticks, Boutons poussoirs, Boutons ON/OFF
