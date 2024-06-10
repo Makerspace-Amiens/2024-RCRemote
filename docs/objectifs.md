@@ -68,4 +68,104 @@ Avant de débuter ce projet, nous avions acquis une base solide de connaissances
 
 # Cahier des Charges
 
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+### 1. Introduction
+
+#### 1.1 Contexte
+Le projet consiste à développer une télécommande basée sur le microcontrôleur ESP32, capable de contrôler divers périphériques via WiFi ou Bluetooth. La télécommande inclut des composants tels que des joysticks, des boutons poussoirs, des boutons ON/OFF et un écran LCD pour afficher les informations.
+
+#### 1.2 Objectifs
+L'objectif est de concevoir, réaliser et programmer une télécommande fonctionnelle, en utilisant l'ESP32 pour gérer les entrées des joysticks et des boutons, traiter les données et commander un écran LCD, ainsi que communiquer avec les périphériques cibles.
+
+### 2. Spécifications Fonctionnelles
+
+#### 2.1 Composants Matériels
+- **Microcontrôleur** : ESP32
+- **Entrées** :
+  - 2 Joysticks
+  - 4 Boutons poussoirs
+  - 2 Boutons ON/OFF
+- **Sorties** :
+  - Écran LCD
+- **Alimentation** : Source d'alimentation adaptée (batterie ou alimentation externe)
+
+#### 2.2 Fonctionnalités
+- **Lecture des Entrées** :
+  - Capture de la position des joysticks (x, y).
+  - Capture de l'état des boutons poussoirs (pressé/non pressé).
+  - Capture de l'état des boutons ON/OFF.
+- **Traitement des Données** :
+  - Interprétation des mouvements des joysticks pour générer des commandes.
+  - Détection et gestion des appuis sur les boutons poussoirs et ON/OFF.
+- **Génération des Commandes** :
+  - Affichage des informations pertinentes sur l'écran LCD.
+  - Transmission des commandes via WiFi/Bluetooth pour contrôler les périphériques.
+
+### 3. Spécifications Techniques
+
+#### 3.1 Microcontrôleur ESP32
+- Double cœur Tensilica LX6
+- Connectivité WiFi et Bluetooth intégrée
+- Interfaces GPIO pour connecter les joysticks, boutons et écran LCD
+
+#### 3.2 Joysticks
+- Module analogique avec deux axes (x, y)
+- Connexion via entrées analogiques de l'ESP32
+
+#### 3.3 Boutons Poussoirs et ON/OFF
+- Boutons numériques pour entrées binaires (haut/bas)
+- Connexion via entrées GPIO de l'ESP32
+
+#### 3.4 Écran LCD
+- Affichage des informations et retour visuel à l'utilisateur
+- Connexion via SPI ou I2C à l'ESP32
+
+#### 3.5 Alimentation
+- Source d'alimentation adaptée pour ESP32 et composants connectés
+- Possibilité d'utiliser une batterie rechargeable
+
+### 4. Architecture du Système
+
+#### 4.1 Diagramme Bloc
+- Entrées : Joysticks, Boutons poussoirs, Boutons ON/OFF
+- Microcontrôleur ESP32 : Lecture des entrées, Traitement des données, Génération des commandes
+- Sorties : Écran LCD, Communication WiFi/Bluetooth
+- Alimentation : Source d'alimentation
+
+### 5. Contraintes
+
+#### 5.1 Contraintes Techniques
+- Intégration et compatibilité des composants matériels avec l'ESP32
+- Gestion de l'alimentation pour une utilisation optimale et durable
+- Programmation en langage C/C++ avec l'IDE Arduino ou PlatformIO
+
+#### 5.2 Contraintes Fonctionnelles
+- Réactivité des commandes et fluidité d'affichage sur l'écran LCD
+- Fiabilité de la communication sans fil (WiFi/Bluetooth)
+- Facilité d'utilisation et ergonomie de la télécommande
+
+### 6. Étapes de Réalisation
+
+#### 6.1 Conception
+- Sélection et acquisition des composants matériels
+- Conception du schéma électronique
+
+#### 6.2 Développement
+- Programmation du microcontrôleur ESP32
+  - Lecture des entrées
+  - Traitement des données
+  - Gestion de l'affichage sur l'écran LCD
+  - Communication sans fil (WiFi/Bluetooth)
+
+#### 6.3 Tests et Validation
+- Test des fonctionnalités de chaque composant (joysticks, boutons, écran LCD)
+- Validation des commandes envoyées et de la communication sans fil
+- Optimisation de l'ergonomie et de la réactivité
+
+#### 6.4 Documentation
+- Rédaction du manuel utilisateur
+- Documentation technique détaillée
+
+### 7. Conclusion
+
+Ce projet vise à développer une télécommande basée sur l'ESP32, intégrant plusieurs composants matériels pour offrir un contrôle sans fil efficace et intuitif. La réussite de ce projet dépendra de la bonne intégration des composants, de la programmation efficace du microcontrôleur, et de la validation rigoureuse des fonctionnalités.
+
