@@ -6,6 +6,8 @@ title: Wokwi
 
 # <span style="color:#003366">_Wokwi_</span>
 
+![Illustration wokwi1](images/image7.png)
+
 ## Qu'est-ce que Wokwi ?
 
 Wokwi est une plateforme en ligne dédiée à la simulation et à la prototypisation de projets électroniques. Elle permet aux utilisateurs de concevoir, de tester et de déboguer des circuits électroniques et des microcontrôleurs dans un environnement virtuel. Parmi ses fonctionnalités principales, on trouve :
@@ -40,5 +42,5 @@ En résumé, Wokwi a été un outil précieux qui a considérablement facilité 
 
 ## Voici une illustration du Wokwi que nous avons réalisée :
 
-
+![Illustration wokwi2](images/image7.png)
 
