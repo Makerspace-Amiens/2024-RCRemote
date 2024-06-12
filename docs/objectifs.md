@@ -175,4 +175,4 @@ Ce projet vise à développer une télécommande basée sur l'ESP32, intégrant 
 ![Illustration cahier des charges](images/image6.jpeg)
 
 
-Page web réalisée par Célien Bonello, étudiant à UniLaSalle Amiens.
+Page web réalisée par Logan DESGARDIN , étudiant à UniLaSalle Amiens.
