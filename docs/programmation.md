@@ -199,4 +199,5 @@ void loop() {
 Le code de notre manette multi-usage est conçu pour être modulaire et extensible. Chaque étape de la boucle principale (lecture des entrées, traitement des données, envoi des commandes) est clairement définie et peut être ajustée ou étendue en fonction des besoins spécifiques du projet. Grâce à cette structure, notre manette peut être facilement adaptée à différentes applications, qu'il s'agisse de jeux, de contrôle de robots, ou d'autres systèmes interactifs.
 
 
+
 Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
