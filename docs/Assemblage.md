@@ -23,3 +23,6 @@ Une fois tous les tests réussis et les éventuels problèmes résolus, nous avo
 ## <span style="color:#003366">_Illustration du prototype final de la manette multi-usage :_</span>
 ![Illustration assemblage](images/image5.png)
 
+
+Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
+
