@@ -14,5 +14,14 @@ Après cela, nous avons modélisé notre manette en 3D avec le logiciel Onshape,
 
 ![Illustration choix](images/image8.png)
 
+### <span style="color:#DB1702">_source_</span>
+
+https://www.youtube.com/@jamesbruton
+https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+https://forum.hacf.fr/t/piloter-une-telecommande-par-esp32/30096
+https://fr.aliexpress.com/i/1005004292162324.html
+https://wokwi.com/projects/394329877065745409
+
+
 
 Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
