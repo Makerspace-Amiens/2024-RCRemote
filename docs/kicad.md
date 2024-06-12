@@ -5,7 +5,7 @@ title: KICAD
 ---
 
 # <span style="color:#DB1702">_KICAD_</span>
-
+![Illustration kicad1](images/kicad.png)
 Après avoir utilisé Wokwi afin de définir les différentes fonctionnalités qui nous seront utiles et les pins que nous allons utiliser, nous passons à la création de la carte électronique. Pour ce faire, nous utilisons KiCad, un logiciel open source.
 
 ## <span style="color:#003366">_Editeur de Schématique_</span>
