@@ -6,7 +6,7 @@ title: Wokwi
 
 # <span style="color:#003366">_Wokwi_</span>
 
-![Illustration wokwi1](images/image7.png)
+![Illustration wokwi1](images/wokwi1.png)
 
 ## Qu'est-ce que Wokwi ?
 
@@ -42,5 +42,5 @@ En résumé, Wokwi a été un outil précieux qui a considérablement facilité 
 
 ## Voici une illustration du Wokwi que nous avons réalisée :
 
-![Illustration wokwi2](images/image7.png)
+![Illustration wokwi2](images/wokwi.PNG)
 
