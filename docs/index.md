@@ -8,34 +8,34 @@ title: Accueil
 
 ![Illustration presentation](images/image4.png)
 
-# <span style="color:#003366">_Résumé du projet_</span>
+## <span style="color:#003366">_Résumé du projet_</span>
 
 Nous sommes deux étudiants en troisième année d'ingénierie à UniLaSalle Amiens. Dans le cadre de notre formation, nous avons conçu une manette multi-usage capable de contrôler différents appareils via Bluetooth avec un microcontrôleur ESP32.
 Nous avons d'abord créé la carte électronique avec KICAD, puis soudé les composants et conçu la coque avec Onshape. Après avoir surmonté des difficultés d'impression 3D, nous avons assemblé la manette et entamé la programmation de l'ESP32 pour assurer une communication stable.
 Ce projet nous a permis de renforcer nos compétences en électronique, modélisation 3D et programmation, tout en nous préparant aux défis techniques de l'ingénierie.
 
-# <span style="color:#DB1702">_Mots clefs_</span>
+## <span style="color:#DB1702">_Mots clefs_</span>
 
 Ingénierie ; UniLaSalle Amiens ; Projet étudiant ; Manette multi-usage ; Bluetooth ; ESP32 ; Microcontrôleur ; KICAD ; Carte électronique ; Impression 3D ; Onshape ; Modélisation 3D ; Soudure de composants ; Conception électronique ; Programmation ; Communication sans fil ; Défis techniques ; Prototypage ; Collaboration ; Évaluation académique
 
-# <span style="color:#003366">_Illustration du prototype_</span>
+## <span style="color:#003366">_Illustration du prototype_</span>
 
 Voici une illustration de notre manette multi-usage, développée dans le cadre de notre projet de troisième année.
 ![Illustration du prototype](images/image5.png)
 
-# <span style="color:#DB1702">_Poster_</span>
+## <span style="color:#DB1702">_Poster_</span>
 
 Voici notre affiche qui présente une vue d'ensemble de notre projet.
 
 ![Poster projet](images/poster.png)
 
-# <span style="color:#003366">_Vidéo_</span>
+## <span style="color:#003366">_Vidéo_</span>
 
 Voici notre vidéo qui offre une présentation globale de notre projet.
 
 <video src="images/video.mp4" controls title="Title"  style="width: 100%;"></video>
 
-# <span style="color:#DB1702">_Remerciements_</span>
+## <span style="color:#DB1702">_Remerciements_</span>
 
 Nous tenons à exprimer notre profonde gratitude à toutes les personnes et institutions qui ont contribué à la réalisation de ce projet. Sans leur soutien et leurs conseils, nous n'aurions pas pu mener à bien ce projet.
 
