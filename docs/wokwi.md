@@ -42,3 +42,6 @@ En résumé, Wokwi a été un outil précieux qui a considérablement facilité 
 
 ![Illustration wokwi2](images/wokwi.PNG)
 
+
+Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
+
