@@ -15,7 +15,7 @@ Wokwi est une plateforme en ligne dédiée à la simulation et à la prototypisa
 - _**Environnement de Codage**_ : Wokwi intègre un éditeur de code en ligne permettant de programmer directement les microcontrôleurs en utilisant des langages tels que le C/C++ pour Arduino ou le MicroPython pour d'autres dispositifs.
 - _**Simulation en Temps Réel**_ : Les utilisateurs peuvent voir leurs circuits fonctionner en temps réel, ce qui facilite le débogage et l'optimisation du code et des circuits.
 
-## <span style="color:#DB1702">_Pourquoi avons-nous utilisé Wokwi ?_</span>
+## <span style="color:#003366">_Pourquoi avons-nous utilisé Wokwi ?_</span>
 
 Nous avons choisi d'utiliser Wokwi pour plusieurs raisons stratégiques et pratiques dans le cadre de notre projet :
 
@@ -38,7 +38,7 @@ L'utilisation de Wokwi a été un atout majeur pour notre projet, apportant plus
 
 En résumé, Wokwi a été un outil précieux qui a considérablement facilité le développement de notre projet, en nous offrant une plateforme robuste et flexible pour concevoir, tester et optimiser notre manette avant de procéder à sa réalisation physique.
 
-## <span style="color:#DB1702">_Voici une illustration du Wokwi que nous avons réalisée :_</span>
+## <span style="color:#003366">_Voici une illustration du Wokwi que nous avons réalisée :_</span>
 
 ![Illustration wokwi2](images/wokwi.PNG)
 
