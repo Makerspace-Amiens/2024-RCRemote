@@ -200,4 +200,4 @@ Le code de notre manette multi-usage est conçu pour être modulaire et extensib
 
 
 
-Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
+Page web réalisée par Logan DESGARDIN , étudiant à UniLaSalle Amiens.
