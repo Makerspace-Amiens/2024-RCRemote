@@ -37,3 +37,8 @@ L'utilisation de Wokwi a été un atout majeur pour notre projet, apportant plus
 - _**Apprentissage et Innovation**_ : L'utilisation de Wokwi nous a permis d'expérimenter avec des composants et des techniques que nous n'aurions peut-être pas envisagés autrement, favorisant ainsi l'innovation et l'apprentissage continu au sein de notre équipe.
 
 En résumé, Wokwi a été un outil précieux qui a considérablement facilité le développement de notre projet, en nous offrant une plateforme robuste et flexible pour concevoir, tester et optimiser notre manette avant de procéder à sa réalisation physique.
+
+## Voici une illustration du Wokwi que nous avons réalisée :
+
+
+
