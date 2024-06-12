@@ -13,7 +13,7 @@ Après avoir utiliser Wokwi afin de définir les différentes fonctionnalités q
 Pour commencer nous utilisons l’éditeur de schématique afin de placer nos différents composants et de les connectés. Nous plaçons l’esp 32 de 38 broches en premier puisqu’il compose la pièce principale, nous utilisons ici un devkit afin de simplifier notre carte électronique et nous avons choisi un 38 broches pour son pins 5V qui nous permet d’alimenter en 5V en plus du 3V3 présent aussi sur les autres devkit. Nous choisissons d’utiliser des connecteurs pour les interrupteurs, l’écran et l’alimentation afin de simplifier l’assemblage futur. Nous avons du importer dans les librairies les joystick car ceci n’étaient pas présent de base. Nous avons ajouter aussi une led afin de servir de témoin lumineux pour l’alimentation.
 Une fois tout nos composants plaçaient nous les relions aux pins leurs correspondant décidé lors du wokwi pour cela nous utilisons des fils et des labels.
 
-![Illustration assemblage](images/13.png)
+![Illustration kicad1](images/13.PNG)
 
 ## <span style="color:#003366">_Empreintes_</span>
 
