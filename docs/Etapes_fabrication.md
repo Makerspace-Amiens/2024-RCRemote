@@ -23,4 +23,4 @@ Chacune de ces étapes sera expliquée en détail dans les sections suivantes, c
 ![Illustration etapes](images/image12.png)
 
 
-Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
+Page web réalisée par Logan DESGARDIN , étudiant à UniLaSalle Amiens.
