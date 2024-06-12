@@ -6,6 +6,12 @@ title: Programmation
 
 # <span style="color:#003366">_programmation_</span>
 
+Pour vous expliquer le fonctionnement de mon code, j'ai décidé de vous fournir une explication illustrée à l'aide d'un schéma en blocs. Ce schéma permettra de visualiser de manière claire et structurée le mécanisme de mon code, facilitant ainsi la compréhension de son fonctionnement global. 
+
+Pour ceux qui sont plus à l'aise techniquement, j'ai également inclus, après le schéma en blocs, des extraits de mon code. Chaque extrait est accompagné d'explications détaillées pour décrire précisément le rôle de chaque segment de code, les logiques appliquées, et les interactions entre les différentes parties. 
+
+Cette approche vous permettra de comprendre non seulement l'architecture générale du code, mais aussi les détails techniques qui le composent, rendant ainsi l'ensemble du processus transparent et accessible à différents niveaux de compétence.
+
 ### Explication Détaillée du Fonctionnement du Code de la Manette Multi-Usage
 
 Pour mieux comprendre le fonctionnement du code de notre manette multi-usage, nous allons approfondir chaque étape de la programmation en suivant les blocs décrits dans le schéma.
