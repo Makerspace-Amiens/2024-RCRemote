@@ -12,11 +12,13 @@ Pour ceux qui sont plus à l'aise techniquement, j'ai également inclus, après 
 
 Cette approche vous permettra de comprendre non seulement l'architecture générale du code, mais aussi les détails techniques qui le composent, rendant ainsi l'ensemble du processus transparent et accessible à différents niveaux de compétence.
 
-### Explication Détaillée du Fonctionnement du Code de la Manette Multi-Usage
+![Illustration presentation](images/image4.png)
+
+## Explication Détaillée du Fonctionnement du Code de la Manette Multi-Usage
 
 Pour mieux comprendre le fonctionnement du code de notre manette multi-usage, nous allons approfondir chaque étape de la programmation en suivant les blocs décrits dans le schéma.
 
-#### 1. Lecture des Entrées
+### 1. Lecture des Entrées
 
 La première étape consiste à lire les données provenant des différents dispositifs d'entrée. Cela inclut deux joysticks, quatre boutons poussoirs, et deux boutons ON/OFF. Chaque type de dispositif d'entrée est géré différemment en fonction de son mode de fonctionnement (analogique pour les joysticks, numérique pour les boutons).
 
@@ -51,7 +53,7 @@ void readInputs() {
 }
 ```
 
-#### 2. Traitement des Données
+### 2. Traitement des Données
 
 Une fois les données lues, nous devons les traiter pour déterminer quelles actions effectuer. Cela peut inclure des calculs pour convertir les valeurs analogiques des joysticks en commandes de mouvement et interpréter les états des boutons pour déclencher des actions spécifiques.
 
@@ -107,7 +109,7 @@ void processInputs() {
 }
 ```
 
-#### 3. Commandes de Contrôle
+### 3. Commandes de Contrôle
 
 Après avoir traité les données, nous devons envoyer les commandes appropriées aux dispositifs de sortie. Cela peut inclure l'envoi d'informations à un écran LCD pour affichage et la communication via WiFi ou Bluetooth.
 
@@ -136,7 +138,7 @@ void sendCommands() {
 }
 ```
 
-#### 4. Boucle Principale
+### 4. Boucle Principale
 
 La boucle principale du programme (la fonction `loop()` en Arduino) exécute en continu les étapes de lecture des entrées, de traitement des données et d'envoi des commandes.
 
@@ -174,6 +176,6 @@ void loop() {
 }
 ```
 
-### Conclusion
+## Conclusion
 
 Le code de notre manette multi-usage est conçu pour être modulaire et extensible. Chaque étape de la boucle principale (lecture des entrées, traitement des données, envoi des commandes) est clairement définie et peut être ajustée ou étendue en fonction des besoins spécifiques du projet. Grâce à cette structure, notre manette peut être facilement adaptée à différentes applications, qu'il s'agisse de jeux, de contrôle de robots, ou d'autres systèmes interactifs.
