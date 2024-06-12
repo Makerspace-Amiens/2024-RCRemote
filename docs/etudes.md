@@ -24,4 +24,4 @@ https://wokwi.com/projects/394329877065745409
 
 
 
-Page web réalisée par Célien Bonello, étudiant à UniLaSalle Amiens.
+Page web réalisée par Logan DESGARDIN , étudiant à UniLaSalle Amiens.
