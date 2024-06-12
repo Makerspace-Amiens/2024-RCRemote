@@ -19,3 +19,6 @@ Notre projet se compose de cinq grandes étapes, que nous allons détailler dans
 5. _**Assemblage final**_ : Toutes les pièces, y compris la carte électronique et les composants 3D, ont été assemblées pour former le prototype final de notre manette. Cette étape a consisté à vérifier le bon fonctionnement de chaque partie et à effectuer les ajustements nécessaires.
 
 Chacune de ces étapes sera expliquée en détail dans les sections suivantes, couvrant la modélisation 3D, la programmation, et les aspects électroniques. Nous vous guiderons à travers chaque phase, en expliquant les défis rencontrés et les solutions apportées pour mener à bien notre projet.
+
+![Illustration etapes](images/image11.jpeg)
+
