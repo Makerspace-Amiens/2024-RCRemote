@@ -14,7 +14,7 @@ Après cela, nous avons modélisé notre manette en 3D avec le logiciel Onshape,
 
 ![Illustration choix](images/image8.png)
 
-# <span style="color:#003366">_sources_</span>
+# <span style="color:#003366">_Sources_</span>
 
 https://www.youtube.com/@jamesbruton
 https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
