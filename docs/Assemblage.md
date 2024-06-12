@@ -24,5 +24,5 @@ Une fois tous les tests réussis et les éventuels problèmes résolus, nous avo
 ![Illustration assemblage](images/image5.png)
 
 
-Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
+Page web réalisée par Logan DESGARDIN , étudiant à UniLaSalle Amiens.
 
