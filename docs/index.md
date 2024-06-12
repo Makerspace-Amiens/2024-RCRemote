@@ -52,4 +52,4 @@ Grâce à l'aide et au soutien de chacun, nous avons pu mener à bien ce projet 
 
 
 
-Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
+Page web réalisée par Logan DESGARDIN , étudiant à UniLaSalle Amiens.
