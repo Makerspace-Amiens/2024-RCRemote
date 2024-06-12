@@ -4,7 +4,7 @@ nav_order: 6
 title: KICAD
 ---
 
-# <span style="color:#003366">_kicad_</span>
+# <span style="color:#DB1702">_KICAD_</span>
 
 Après avoir utiliser Wokwi afin de définir les différentes fonctionnalités qui nous serons utiles et les pins que nous allons utiliser, nous passons à la création de la carte électronique pour se faire nous utilisons Kicad un logiciel open source.
 
@@ -15,7 +15,7 @@ Une fois tout nos composants plaçaient nous les relions aux pins leurs correspo
 
 ![Illustration kicad1](images/13.PNG)
 
-## <span style="color:#003366">_Empreintes_</span>
+## <span style="color:#DB1702">_Empreintes_</span>
 
 Une fois notre schématique terminer nous devons prendre chaque composants et leurs attribués des empreintes pour cela nous utilisons la commande E. Dans le menu des empreintes nous avons un large choix avec plusieurs empreintes pouvant correspondre à un même composant pour décider duquel choisir il faut se référé au composant que nous avons commander, si l’empreinte désirer ne se trouve pas dans la bibliothèque il faut l’ajouter.
 
@@ -27,7 +27,7 @@ On passe sur la phase 2 ici on commence par définir la forme et la taille de no
 
 ![Illustration assemblage](images/15.PNG)
 
-## <span style="color:#003366">_Réglages_</span>
+## <span style="color:#DB1702">_Réglages_</span>
 
 Afin de vérifier notre carte nous possédons plusieurs solutions on peut imprimer sur papier la carte pour vérifier la taille des trous pour les pins. On peut également visualisé la carte en 3D pour se rendre compte du résultat. On peut aussi l’imprimer en 3D afin de se rendre compte de sa corpulence réel. Enfin toutes ces fonctionnalités nous permettes de régler la place des composants et le choix des empreintes afin de limiter les erreurs avant la production.  Une fois fini on peut envoyer notre fichier à l’industriels pour l’impression.
 
