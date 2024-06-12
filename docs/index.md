@@ -12,7 +12,7 @@ title: Accueil
 
 Nous sommes deux étudiants en troisième année à UniLaSalle Amiens et nous sommes ravis de vous présenter notre projet : une manette multi-usage.
 
-![Illustration presentation](images/image4.png)
+![Illustration presentation](images/equipe.png)
 
 # <span style="color:#003366">_Résumé du projet_</span>
 
