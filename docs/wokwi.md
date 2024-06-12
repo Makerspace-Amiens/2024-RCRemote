@@ -19,13 +19,13 @@ Wokwi est une plateforme en ligne dédiée à la simulation et à la prototypisa
 
 Nous avons choisi d'utiliser Wokwi pour plusieurs raisons stratégiques et pratiques dans le cadre de notre projet :
 
-1. _**Facilité de Prototypage**_ : Wokwi nous a permis de créer rapidement un prototype virtuel de notre manette, en testant différents composants et configurations sans avoir besoin de matériel physique. Cela a accéléré le processus de développement et nous a permis de tester plusieurs itérations de notre design.
+- _**Facilité de Prototypage**_ : Wokwi nous a permis de créer rapidement un prototype virtuel de notre manette, en testant différents composants et configurations sans avoir besoin de matériel physique. Cela a accéléré le processus de développement et nous a permis de tester plusieurs itérations de notre design.
 
-2. _**Économie de Temps et de Coûts**_ : En utilisant Wokwi, nous avons pu identifier et résoudre de nombreux problèmes de conception avant de passer à la phase de fabrication réelle. Cela a réduit les coûts liés aux erreurs matérielles et nous a fait gagner un temps précieux en évitant des allers-retours fréquents entre la conception et le test.
+- _**Économie de Temps et de Coûts**_ : En utilisant Wokwi, nous avons pu identifier et résoudre de nombreux problèmes de conception avant de passer à la phase de fabrication réelle. Cela a réduit les coûts liés aux erreurs matérielles et nous a fait gagner un temps précieux en évitant des allers-retours fréquents entre la conception et le test.
 
-3. _**Simulation Précise**_ : La capacité de Wokwi à simuler précisément le comportement des microcontrôleurs et des composants électroniques nous a permis de vérifier le bon fonctionnement de notre code et de nos circuits dans un environnement contrôlé. Nous avons pu tester les interactions entre le matériel et le logiciel de manière exhaustive.
+- _**Simulation Précise**_ : La capacité de Wokwi à simuler précisément le comportement des microcontrôleurs et des composants électroniques nous a permis de vérifier le bon fonctionnement de notre code et de nos circuits dans un environnement contrôlé. Nous avons pu tester les interactions entre le matériel et le logiciel de manière exhaustive.
 
-4. _**Collaboration et Partage**_ : Wokwi offre des fonctionnalités de partage de projets, facilitant la collaboration entre les membres de notre équipe. Chacun pouvait accéder au prototype virtuel, proposer des modifications et tester des idées de manière collaborative et efficace.
+- _**Collaboration et Partage**_ : Wokwi offre des fonctionnalités de partage de projets, facilitant la collaboration entre les membres de notre équipe. Chacun pouvait accéder au prototype virtuel, proposer des modifications et tester des idées de manière collaborative et efficace.
 
 ## <span style="color:#DB1702">_Ce que Wokwi nous a apporté_</span>
 
