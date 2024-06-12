@@ -4,7 +4,7 @@ nav_order: 6
 title: KICAD
 ---
 
-![Illustration kicad1](images/kicad.png)
+![Illustration kicad1](images/kicad1.png)
 
 Après avoir utilisé Wokwi afin de définir les différentes fonctionnalités qui nous seront utiles et les pins que nous allons utiliser, nous passons à la création de la carte électronique. Pour ce faire, nous utilisons KiCad, un logiciel open source.
 
