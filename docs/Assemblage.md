@@ -22,5 +22,5 @@ Une fois tous les tests réussis et les éventuels problèmes résolus, nous avo
 
 ## Illustration du prototype final de la manette multi-usage :
 
-![Illustration assemblage](images/assemblage.png)
+![Illustration assemblage](images/image5.png)
 
