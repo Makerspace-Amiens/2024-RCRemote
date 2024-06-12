@@ -50,4 +50,7 @@ Enfin, nous adressons nos plus sincères remerciements à nos familles et amis p
 
 Grâce à l'aide et au soutien de chacun, nous avons pu mener à bien ce projet et en tirer de précieuses leçons pour notre future carrière d'ingénieur. Ce projet n'a pas seulement été une réussite académique, mais aussi une aventure humaine enrichissante qui nous a permis de développer des compétences techniques et interpersonnelles essentielles.
 
+
+
+Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
 ---
