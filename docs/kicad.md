@@ -8,7 +8,7 @@ title: KICAD
 
 Après avoir utilisé Wokwi afin de définir les différentes fonctionnalités qui nous seront utiles et les pins que nous allons utiliser, nous passons à la création de la carte électronique. Pour ce faire, nous utilisons KiCad, un logiciel open source.
 
-## <span style="color:#003366">_Editeur de Schématique_</span>
+## <span style="color:#003366">_Éditeur de Schématique_</span>
 
 Pour commencer, nous utilisons l’éditeur de schématique afin de placer nos différents composants et de les connecter. Nous plaçons l'ESP32 de 38 broches en premier puisqu’il constitue la pièce principale. Nous utilisons ici un devkit afin de simplifier notre carte électronique, et nous avons choisi un modèle à 38 broches pour son pin 5V, qui nous permet une alimentation en 5V en plus du 3V3 présent sur les autres devkits. Nous choisissons d’utiliser des connecteurs pour les interrupteurs, l’écran et l’alimentation afin de simplifier l’assemblage futur. Nous avons dû importer les joysticks dans les librairies car ils n’étaient pas présents par défaut. Nous avons également ajouté une LED afin de servir de témoin lumineux pour l’alimentation.
 
