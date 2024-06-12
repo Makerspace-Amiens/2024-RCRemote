@@ -16,5 +16,11 @@ Après avoir intégré la carte électronique dans le boîtier, nous avons proc�
 
 Une fois tous les tests réussis et les éventuels problèmes résolus, nous avons finalisé l'assemblage en fixant définitivement la carte électronique dans le boîtier et en assurant une fermeture sécurisée. Le prototype était alors prêt pour une évaluation finale et des démonstrations, démontrant ainsi la réussite de notre processus d'assemblage et la fonctionnalité de la manette multi-usage.
 
+## Illustration de l'assemblage de la manette multi-usage :
+
+![Illustration assemblage](images/assemblage.png)
+
+## Illustration du prototype final de la manette multi-usage :
+
 ![Illustration assemblage](images/assemblage.png)
 
