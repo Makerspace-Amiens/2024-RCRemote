@@ -30,7 +30,7 @@ Pour ceux qui sont plus à l'aise techniquement, j'ai également inclus, après 
 
 Cette approche vous permettra de comprendre non seulement l'architecture générale du code, mais aussi les détails techniques qui le composent, rendant ainsi l'ensemble du processus transparent et accessible à différents niveaux de compétence.
 
-![Illustration presentation](images/image4.png)
+![Illustration presentation](images/arduino1.png)
 
 ## Explication Détaillée du Fonctionnement du Code de la Manette Multi-Usage
 
