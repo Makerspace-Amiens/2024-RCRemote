@@ -17,7 +17,7 @@ Pour vous expliquer globalement le processus, voici les étapes que j'ai suivies
 
 4. **Vérification avant l'injection** : L'un des avantages majeurs de l'IDE Arduino est qu'il permet de vérifier et de déboguer le code avant de l'injecter dans le microprocesseur ESP32. Cette étape de pré-injection garantit que le code fonctionnera comme prévu une fois transféré sur le matériel.
 
-![Illustration presentation](images/image4.png)
+![Illustration presentation](arduino/image4.png)
 
 Pour vous expliquer le fonctionnement de mon code, j'ai décidé de vous fournir une explication illustrée à l'aide d'un schéma en blocs. Ce schéma permettra de visualiser de manière claire et structurée le mécanisme de mon code, facilitant ainsi la compréhension de son fonctionnement global. 
 
