@@ -173,3 +173,6 @@ L'objectif est de concevoir, réaliser et programmer une télécommande fonction
 Ce projet vise à développer une télécommande basée sur l'ESP32, intégrant plusieurs composants matériels pour offrir un contrôle sans fil efficace et intuitif. La réussite de ce projet dépendra de la bonne intégration des composants, de la programmation efficace du microcontrôleur, et de la validation rigoureuse des fonctionnalités.
 
 ![Illustration cahier des charges](images/image6.jpeg)
+
+
+Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
