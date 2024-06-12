@@ -13,3 +13,6 @@ Notre projet a débuté avec la création d’un "Wokwi", ce qui nous a permis d
 Après cela, nous avons modélisé notre manette en 3D avec le logiciel Onshape, puis programmé le microcontrôleur ESP32 avec l'IDE Arduino. Enfin, nous avons tout assemblé pour obtenir un prototype fini.
 
 ![Illustration choix](images/image8.png)
+
+
+Page web réalisée par Logan Desgardin, étudiant à UniLaSalle Amiens.
