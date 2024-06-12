@@ -6,88 +6,151 @@ title: Programmation
 
 # <span style="color:#003366">_programmation_</span>
 
-### Explication du Code pour la Programmation de la Manette Multi-Usage
+### Explication Détaillée du Fonctionnement du Code de la Manette Multi-Usage
 
-Le schéma bloc fourni représente les différentes étapes de traitement et de communication de notre manette multi-usage, utilisant un microcontrôleur ESP32. Voici une explication détaillée du fonctionnement du code associé à chaque bloc :
+Pour mieux comprendre le fonctionnement du code de notre manette multi-usage, nous allons approfondir chaque étape de la programmation en suivant les blocs décrits dans le schéma.
 
-#### Bloc 1 : Entrée
-Ce bloc regroupe les dispositifs d'entrée, incluant :
-- **Joystick 1**
-- **Joystick 2**
-- **Boutons poussoirs (4)**
-- **Boutons ON / OFF (2)**
+#### 1. Lecture des Entrées
 
-#### Bloc 2 : Traitement (ESP32)
-Le microcontrôleur ESP32 est le cœur du système, chargé de lire les entrées, traiter les données et envoyer des commandes de contrôle. Ce bloc est divisé en trois sous-parties :
+La première étape consiste à lire les données provenant des différents dispositifs d'entrée. Cela inclut deux joysticks, quatre boutons poussoirs, et deux boutons ON/OFF. Chaque type de dispositif d'entrée est géré différemment en fonction de son mode de fonctionnement (analogique pour les joysticks, numérique pour les boutons).
 
-1. **Lecture des Entrées**
-   - **Lecture Joystick 1 & 2** : Le code lit les valeurs des deux joysticks, qui sont généralement des signaux analogiques convertis en valeurs numériques par l'ESP32.
-   - **Lecture Boutons poussoirs (4)** : Le code surveille les états des quatre boutons poussoirs, qui sont des entrées numériques.
-   - **Lecture Boutons ON / OFF (2)** : De la même manière, les boutons ON / OFF sont surveillés pour détecter leur état (haut/bas).
+```cpp
+// Déclaration des pins pour les entrées
+const int pinJoystick1X = A0;
+const int pinJoystick1Y = A1;
+const int pinJoystick2X = A2;
+const int pinJoystick2Y = A3;
+const int pinButton1 = 2;
+const int pinButton2 = 3;
+const int pinButton3 = 4;
+const int pinButton4 = 5;
+const int pinOnOff1 = 6;
+const int pinOnOff2 = 7;
 
-   ```
-   int joystick1X = analogRead(pinJoystick1X);
-   int joystick1Y = analogRead(pinJoystick1Y);
-   int joystick2X = analogRead(pinJoystick2X);
-   int joystick2Y = analogRead(pinJoystick2Y);
-   bool button1 = digitalRead(pinButton1);
-   bool button2 = digitalRead(pinButton2);
-   bool button3 = digitalRead(pinButton3);
-   bool button4 = digitalRead(pinButton4);
-   bool buttonOnOff1 = digitalRead(pinOnOff1);
-   bool buttonOnOff2 = digitalRead(pinOnOff2);
-   ```
+// Variables pour stocker les valeurs lues
+int joystick1X, joystick1Y, joystick2X, joystick2Y;
+bool button1, button2, button3, button4, buttonOnOff1, buttonOnOff2;
 
-2. **Traitement des Données**
-   - **Traitement Joysticks** : Les valeurs des joysticks sont traitées pour déterminer la direction et l'intensité des mouvements.
-   - **Traitement Boutons** : Les états des boutons sont interprétés pour déterminer quelles actions doivent être déclenchées.
-
-   ```
-   void processInputs() {
-       // Traitement des données des joysticks
-       if (joystick1X > threshold) {
-           // Action correspondante au mouvement du joystick 1 à droite
-       }
-       if (joystick1Y > threshold) {
-           // Action correspondante au mouvement du joystick 1 vers le haut
-       }
-       // Traitement similaire pour joystick 2 et boutons
-   }
-   ```
-
-3. **Commandes de Contrôle**
-   - **Commande vers Écran LCD** : Les informations traitées sont envoyées à l'écran LCD pour affichage.
-   - **Commande vers Communication (WiFi/Bluetooth)** : Les données peuvent également être envoyées via WiFi ou Bluetooth pour une utilisation externe.
-
-   ```
-   void sendCommands() {
-       // Commande vers l'écran LCD
-       lcd.print("Joystick 1 X: ");
-       lcd.print(joystick1X);
-       // Commande pour la communication
-       wifiSendData(joystick1X, joystick1Y, ...);
-   }
-   ```
-
-#### Bloc 3 : Sortie
-Ce bloc traite les dispositifs de sortie :
-- **Écran LCD** : Affiche les informations relatives aux entrées et aux traitements.
-- **Communication (WiFi/Bluetooth)** : Permet la communication des données traitées vers d'autres appareils ou systèmes.
-
-#### Bloc 4 : Alimentation
-Ce bloc assure l'alimentation des composants :
-- **Source d’alimentation** : Fournit l'énergie nécessaire à tous les composants du système.
-- **Régulateur de tension (si nécessaire)** : Stabilise la tension d'alimentation pour garantir un fonctionnement optimal des composants.
-
-### Fonctionnement du Code Global
-Le code de notre manette multi-usage suit une structure de boucle principale qui s'exécute en continu pour lire les entrées, traiter les données et envoyer les commandes appropriées. Voici un pseudocode simplifié illustrant ce fonctionnement :
-
+void readInputs() {
+    joystick1X = analogRead(pinJoystick1X);
+    joystick1Y = analogRead(pinJoystick1Y);
+    joystick2X = analogRead(pinJoystick2X);
+    joystick2Y = analogRead(pinJoystick2Y);
+    button1 = digitalRead(pinButton1);
+    button2 = digitalRead(pinButton2);
+    button3 = digitalRead(pinButton3);
+    button4 = digitalRead(pinButton4);
+    buttonOnOff1 = digitalRead(pinOnOff1);
+    buttonOnOff2 = digitalRead(pinOnOff2);
+}
 ```
+
+#### 2. Traitement des Données
+
+Une fois les données lues, nous devons les traiter pour déterminer quelles actions effectuer. Cela peut inclure des calculs pour convertir les valeurs analogiques des joysticks en commandes de mouvement et interpréter les états des boutons pour déclencher des actions spécifiques.
+
+```cpp
+void processInputs() {
+    // Traitement des joysticks
+    if (joystick1X > threshold) {
+        // Action correspondante au mouvement du joystick 1 vers la droite
+    } else if (joystick1X < -threshold) {
+        // Action correspondante au mouvement du joystick 1 vers la gauche
+    }
+
+    if (joystick1Y > threshold) {
+        // Action correspondante au mouvement du joystick 1 vers le haut
+    } else if (joystick1Y < -threshold) {
+        // Action correspondante au mouvement du joystick 1 vers le bas
+    }
+
+    // Traitement similaire pour joystick 2
+    if (joystick2X > threshold) {
+        // Action correspondante au mouvement du joystick 2 vers la droite
+    } else if (joystick2X < -threshold) {
+        // Action correspondante au mouvement du joystick 2 vers la gauche
+    }
+
+    if (joystick2Y > threshold) {
+        // Action correspondante au mouvement du joystick 2 vers le haut
+    } else if (joystick2Y < -threshold) {
+        // Action correspondante au mouvement du joystick 2 vers le bas
+    }
+
+    // Traitement des boutons poussoirs
+    if (button1) {
+        // Action pour le bouton poussoir 1
+    }
+    if (button2) {
+        // Action pour le bouton poussoir 2
+    }
+    if (button3) {
+        // Action pour le bouton poussoir 3
+    }
+    if (button4) {
+        // Action pour le bouton poussoir 4
+    }
+
+    // Traitement des boutons ON/OFF
+    if (buttonOnOff1) {
+        // Action pour le bouton ON/OFF 1
+    }
+    if (buttonOnOff2) {
+        // Action pour le bouton ON/OFF 2
+    }
+}
+```
+
+#### 3. Commandes de Contrôle
+
+Après avoir traité les données, nous devons envoyer les commandes appropriées aux dispositifs de sortie. Cela peut inclure l'envoi d'informations à un écran LCD pour affichage et la communication via WiFi ou Bluetooth.
+
+```cpp
+// Fonction pour envoyer des données à l'écran LCD
+void updateLCD() {
+    lcd.clear();
+    lcd.setCursor(0, 0);
+    lcd.print("Joystick 1 X: ");
+    lcd.print(joystick1X);
+    lcd.setCursor(0, 1);
+    lcd.print("Joystick 1 Y: ");
+    lcd.print(joystick1Y);
+    // Affichage des autres valeurs si nécessaire
+}
+
+// Fonction pour envoyer des données via WiFi/Bluetooth
+void sendData() {
+    // Exemple de fonction de communication WiFi
+    wifiSendData(joystick1X, joystick1Y, joystick2X, joystick2Y, button1, button2, button3, button4, buttonOnOff1, buttonOnOff2);
+}
+
+void sendCommands() {
+    updateLCD();
+    sendData();
+}
+```
+
+#### 4. Boucle Principale
+
+La boucle principale du programme (la fonction `loop()` en Arduino) exécute en continu les étapes de lecture des entrées, de traitement des données et d'envoi des commandes.
+
+```cpp
 void setup() {
     // Initialisation des pins et des périphériques (LCD, WiFi, etc.)
-    initPins();
-    initLCD();
-    initWiFi();
+    pinMode(pinJoystick1X, INPUT);
+    pinMode(pinJoystick1Y, INPUT);
+    pinMode(pinJoystick2X, INPUT);
+    pinMode(pinJoystick2Y, INPUT);
+    pinMode(pinButton1, INPUT_PULLUP);
+    pinMode(pinButton2, INPUT_PULLUP);
+    pinMode(pinButton3, INPUT_PULLUP);
+    pinMode(pinButton4, INPUT_PULLUP);
+    pinMode(pinOnOff1, INPUT_PULLUP);
+    pinMode(pinOnOff2, INPUT_PULLUP);
+    // Initialisation de l'écran LCD
+    lcd.begin(16, 2);
+    // Initialisation de la communication WiFi/Bluetooth
+    wifiInit();
 }
 
 void loop() {
@@ -106,4 +169,5 @@ void loop() {
 ```
 
 ### Conclusion
-Le code de notre manette multi-usage est structuré pour lire les entrées des différents dispositifs (joysticks et boutons), traiter ces données pour déterminer les actions appropriées, et envoyer des commandes aux dispositifs de sortie (écran LCD et modules de communication). Grâce à cette structure modulaire, notre manette peut être facilement adaptée à diverses applications, qu'il s'agisse de jeux, de contrôle de robots ou d'autres systèmes interactifs.
+
+Le code de notre manette multi-usage est conçu pour être modulaire et extensible. Chaque étape de la boucle principale (lecture des entrées, traitement des données, envoi des commandes) est clairement définie et peut être ajustée ou étendue en fonction des besoins spécifiques du projet. Grâce à cette structure, notre manette peut être facilement adaptée à différentes applications, qu'il s'agisse de jeux, de contrôle de robots, ou d'autres systèmes interactifs.
