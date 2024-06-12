@@ -6,7 +6,7 @@ title: Programmation
 
 # <span style="color:#003366">_Programmation_</span>
 
-## <span style="color:#DB1702">_IDE Arduino_</span>
+# <span style="color:#DB1702">_IDE Arduino_</span>
 
 Pour programmer mon microprocesseur ESP32, j'ai opté pour l'utilisation de l'IDE Arduino. J'ai choisi cette application parce que je l'ai déjà utilisée auparavant et qu'elle est réputée pour sa simplicité d'utilisation. 
 
@@ -22,7 +22,7 @@ Pour vous expliquer globalement le processus, voici les étapes que j'ai suivies
 
 ![Illustration presentation](images/arduino.png)
 
-## <span style="color:#003366">_Explication du Fonctionnement du Code de la Manette Multi-Usage a l'aide d'un schéma bloc_</span>
+# <span style="color:#003366">_Explication du Fonctionnement du Code de la Manette Multi-Usage a l'aide d'un schéma bloc_</span>
 
 Pour vous expliquer le fonctionnement de mon code, j'ai décidé de vous fournir une explication illustrée à l'aide d'un schéma en blocs. Ce schéma permettra de visualiser de manière claire et structurée le mécanisme de mon code, facilitant ainsi la compréhension de son fonctionnement global. 
 
@@ -32,7 +32,7 @@ Cette approche vous permettra de comprendre non seulement l'architecture génér
 
 ![Illustration presentation](images/arduino1.png)
 
-## <span style="color:#DB1702">_Explication Détaillée du Fonctionnement du Code de la Manette Multi-Usage_</span>
+# <span style="color:#DB1702">_Explication Détaillée du Fonctionnement du Code de la Manette Multi-Usage_</span>
 
 Pour mieux comprendre le fonctionnement du code de notre manette multi-usage, nous allons approfondir chaque étape de la programmation en suivant les blocs décrits dans le schéma.
 
