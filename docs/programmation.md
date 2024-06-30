@@ -200,7 +200,7 @@ Chaque partie est maintenant clairement divisée selon sa fonctionnalité dans l
 
 Mon code compile correctement dans l'IDE Arduino sans afficher aucun message d'erreur, ce qui démontre sa compatibilité. De plus, je peux le simuler sur Wokwi pour illustrer ses capacités et fonctionnalités.
 
-![Illustration programmation ](images/arduino.png)
+![Illustration programmation ](images/code.png)
 
 ### Conclusion
 
